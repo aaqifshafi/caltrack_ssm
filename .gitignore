@@ -120,8 +120,7 @@ $RECYCLE.BIN/
 .firebaserc
 firebase.json
 firebase-config.tsx
-*src
+src/config/*
 
 
 
-/src/config/firebase-config.tsx
