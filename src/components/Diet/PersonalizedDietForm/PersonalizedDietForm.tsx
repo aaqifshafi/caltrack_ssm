@@ -51,9 +51,9 @@ const PersonalizedDietForm: FC<{ onSubmit: (preferences: any) => void }> = ({
           <FormControl mb={4}>
             <FormLabel htmlFor="activityLevel">Activity Level</FormLabel>
             <Field name="activityLevel" as={Select}>
-              <option value={ActivityLevel.sedentary}>Sedentary</option>
-              <option value={ActivityLevel.moderately}>Moderate</option>
-              <option value={ActivityLevel.Active}>Active</option>
+              <option value={ActivityLevel.noActivity}>Not Active</option>
+              <option value={ActivityLevel.lightlyActive}>Light Active</option>
+              <option value={ActivityLevel.veryActive}>Very Active</option>
             </Field>
           </FormControl>
           <FormControl mb={4}>

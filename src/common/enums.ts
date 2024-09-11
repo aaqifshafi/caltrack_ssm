@@ -34,7 +34,6 @@ export enum ActivityLevel {
   moderately = "moderately",
   veryActive = "veryActive",
   superActive = "superActive",
-  Active = "Active",
 }
 
 export enum WeightGoal {

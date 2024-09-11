@@ -5,7 +5,7 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyChSYSFAg9Yra38_Cg-d9Q1Nk8Zwivu1zA",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "caltrack-9365d.firebaseapp.com",
   databaseURL:
     "https://caltrack-9365d-default-rtdb.asia-southeast1.firebasedatabase.app",
