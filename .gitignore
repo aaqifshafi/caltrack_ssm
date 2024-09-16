@@ -112,7 +112,7 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
-
+.DS_Store
 # Windows shortcuts
 *.lnk
 
@@ -121,6 +121,7 @@ $RECYCLE.BIN/
 firebase.json
 firebase-config.tsx
 src/config/*
+/src/config/firebase-config.tsx
 
 
 

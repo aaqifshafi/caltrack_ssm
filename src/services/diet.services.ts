@@ -31,7 +31,7 @@ export const generatePersonalizedDiet = async (
 ): Promise<{ title: string; description: string }> => {
   try {
     const prompt = `
-    You are a smart Nutrition Assistant. Generate a personalized diet plan for the me based on mybody details and fitness goals. Consider the following information:
+    You are a smart Nutrition Assistant. Generate a personalized diet plan for the me based on my body details and fitness goals. Consider the following information:
     
     - Weight: ${userData.health?.weightMetric || "N/A"} kg
     - Height: ${userData.health?.heightMetric || "N/A"} cm
